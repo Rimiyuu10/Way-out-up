@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "970303720796",
+    "firebase_url": "https://way-out-edac2-default-rtdb.firebaseio.com",
+    "project_id": "way-out-edac2",
+    "storage_bucket": "way-out-edac2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970303720796:android:ee58bd6522507e06990599",
+        "android_client_info": {
+          "package_name": "com.DecheThieunang.WayOut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtNzuU4FTld3UYbZNGtC2Q27fc5EDLaYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

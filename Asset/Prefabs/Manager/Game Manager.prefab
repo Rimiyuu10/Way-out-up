@@ -1,0 +1,1358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3531261346529298154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7236708619788766923}
+  - component: {fileID: 6684265335696953228}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7236708619788766923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531261346529298154}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6684265335696953228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531261346529298154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032ab2bdb8b8b964d8b191a5f4e15db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testGame: 0
+  levels:
+  - levelPrefab: {fileID: 3854754980767365305, guid: 6c27bac3008b7d444a28ccab5ffffc52, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5077959954432
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: c664559e258219b4dbc12021a03fb094, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 930946526203904
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 65076515f131ecc4c9261ca47ddac2d2, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 932447579525120
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 171fd4487ce0bd44caed47980d909fe5, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 934146192953344
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: e5e77e01748329941a04be68ec030668, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2190031284326400
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: f229643a189f4094e8c01214bef3007e, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2190383698137088
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 98eeb587339d4ba498945baf784a8b5f, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2190624925143040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: e9f82170f0ab8114d8a5e6648745f170, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2190795968860160
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 81405e6ca98885145a8582893566784d, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 936144497790976
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: cb8533368f4f3fc46afdc63b244dd0b1, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2191409247408128
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b512280d32e0042478dbcda90be6c4f2, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2191599161298944
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: af258352751d6ae48a1b15ddf1adae1c, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2191811829288960
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: ced48219bcdc5be44b5dc8ee5813b85c, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2192130621558784
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 07401bbe747404a4cbe4ea16f5493025, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2192266571534336
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 90fad8e05b7fd3e40bc232bd2508348f, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2192488068534272
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 14a9dcfed87b14b448d4d0d9a4f79940, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2192703815143424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 60493c068bfcaa44a89d8ab7542eebfd, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2192969390084096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 21b13c871cca63f4391cd084573e51f9, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2193142551924736
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b10bc519d9ab72749b1c697047565fb9, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2193313767608320
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 3f047b440eb84e446ae7eca484d5219b, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2193688365092864
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b92cecd6cb8e7534285e6f43fad6ba3e, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2355945514455040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 2b0f6135ffcb91a4ab92881c927522a6, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2356141417811968
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 1c92d484536917e4982d01d53c73e381, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2356630020673536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 23c16f030683fc84c9fefc0b089e8500, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2356887253143552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 8115a83aeda72db4bb3582845b1ba7e5, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2357000344162304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 4bf09a83758b3574a8301157cd706e5b, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4496926850404352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 55ef2d8ef3b2cdb4e8cb76baf4eff23b, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4497532084277248
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 28408ac6bed53ae45b7e03e13acb4d24, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4497969248194560
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 8b819c028a8039744ae045a4e5b89866, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4498802736091136
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: dff60d93cbe78c04db652a1add3ccacc, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4498946181287936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: d3a3cbda7d18afc44ae44a9e5f3f37b7, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4499211605233664
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: acb4182f77709684eaa38706920fe8bd, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4499379717132288
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 607f9221d955b9f40814eed063118547, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4500552163512320
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 16c3eee09eb385a4fb7f662e52c13e82, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4502969848418304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 1a78937be90cb6748a789eb0b7e7360c, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4503142037180416
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 0facce509f24218419ffc2f4ff3fdbaf, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4503895090909184
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 9082de5300686c14080df33e4e63e27a, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4504664158490624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: eac4e50a0cbddf14b922c699b367ea17, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4567441401171968
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 4f7eae0eba61b13498071a439096ec3d, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4567866607128576
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 29cfeb7cbce1e734c9d2d70df73a6183, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570645354500096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 85299f9562d7aa44594963a8633e0469, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570663616499712
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: cf8e0fad81a6fca4abcdeeb7e4b5c0ce, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570680569876480
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b2f33b98c19b37c43b93207d3008916e, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570697112211456
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 5c2d1e730bd875349b4ec5898b06c753, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570716649279488
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 0b85a144cceddd84eaa5e377dfeac4e5, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570727906791424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 2da1ffe25d5b2bd48bcec35df8d33f29, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570739537596416
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 650fbde804f80434aa09a0386f75d24d, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570752573493248
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 6117382786a9d904ab74d780429f9dc9, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570763113779200
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 2e664238a8b1b5349bc4703def98c525, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570773993803776
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 3a97052408f63fe428aa6c840368d121, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570854872567808
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 5d841deed55c84f40a1cc07ddf8cb397, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 4570858928459776
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b4c859b08c0eff14ca963bb6c6702d55, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066296701997056
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 4a1a568c614324949b7de5d3778df523, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066313835728896
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 1069486f1bb3f08439ac2c3c96459667, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066345494335488
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 9aeca5351e7406843834be4b877c9ebc, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066360107290624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: f8900c993c3b927438499f53fb254891, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066371880701952
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 98fb61387e12ec746a6b14c5bd0c132b, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066382534234112
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 451151e1ce8269949a6110469981cac3, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066399269507072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: bfa2a3fd9f765fb49b480e09b3c2ff46, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066414377390080
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 7f1d0799f6811084485243f4b02ae646, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066442848325632
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 39af93f045a04bc4cb70081716d8d113, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066459986251776
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 5595182e60662274eb4eddae2f9fab31, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066470891442176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: a329099cb27faf048b9fb3471456d944, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066483214307328
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 985dc4a53fbeb6f4b8f120031d257db1, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066508271079424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 4c2ad8783551a2441a64f759f8ec2119, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066524326875136
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: c8368dea48ba67040b74e3603471ad23, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066534766497792
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: c5c2e570caa2a7442a954efdc0f22797, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066556530741248
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 9a299ea9e52d1414b9f868742e745060, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066569826684928
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: eb94e6b0766f75142b4caef7a2b73c72, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066582648672256
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 346f937507ed8a24a99461f410df6eb2, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066593868435456
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 62acdc9e23b59a94b84dfc99f9ca5b3f, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066635127803904
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 30ddb5c53b9b6a04386055335cfd2317, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066645944913920
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 0071d137388f42c4ea1115b42ef016a5, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066657860931584
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 2cd911604d076614997e27dfbc7ffcd0, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066671253344256
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: bd0f4a76f84e24841b222c7e32e63a88, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066686419947520
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 898bfcce18370444a914d21ed1c05121, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066699015442432
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 09c0b0bbb8c899c4689d96fb2a45ccf8, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066710939848704
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 3557ed8cec4e89c4dbd7247a716dd6fc, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066728887275520
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: c4a5508c11bf2b14c9c46996f9da3ecb, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066780682735616
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 5f5c834544ed028498475f64b37abf75, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066791969607680
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 8fd780593e0b41d44bb8547aeb39cf42, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066802384064512
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: b95c9e171c6a8b24a86a889f5eecccf8, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066813037596672
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: cbf6284bbaf91fa4ab3086ea8c07f449, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066826635530240
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: f5e7a638090ecb143ab7c231da8d28e6, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066838933229568
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 37620fe38b4df01419b8270096678a21, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066861976735744
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 5564f9083d6611e418e6a81706411282, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066883615150080
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: fbcf2f1bad2e1c54dbb9495d80149dc5, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066896864956416
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: e494274673cf67542ad412a7065442e8, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066908109885440
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 17f831972f390024190e456981aeaaec, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066917526097920
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 3750145f946d8594a94dd64202651445, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066927458209792
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 736353cdd32cc17419ab5f60ddaf31c3, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066937977524224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: c4816e013f8dc214aa1825fac8f547d7, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066949113401344
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: ea4db68417cd1d349a5956405310854d, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: abf43f42acd591448955cddee6846102, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066967547367424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 99fde15331caf694c870415e6ffd341a, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 2357000344162304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: -10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: eed58d3603698644d98c9dbf2b959435, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5066998664908800
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 66ae0cc0b9fc38b4cb56660178b8d95c, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5067014271913984
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 9e2fa3e853d75e04c81f2cf252471456, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5067028486410240
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: ace5273432e2cdc4c8b4f41d558f5788, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5067039953637376
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: fa42b0bb4ea55194aa0ca0009dd32a32, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5067055405453312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  - levelPrefab: {fileID: 3854754980767365305, guid: 91362614cbb7b304bb7209692f87437e, type: 3}
+    message:
+      m_TableReference:
+        m_TableCollectionName: GUID:a7bfbb112505d454fbb575d7b6bbca3e
+      m_TableEntryReference:
+        m_KeyId: 5067066604244992
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    cameraSize: 10
+    playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
+  cheerText:
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 2186297724928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1212193173393408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1212484149039104
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1212535269216256
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1212694963146752
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1213062048632832
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 1213259214475264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:ecb2600cbcc44f544b51f2a8561d0a3a
+    m_TableEntryReference:
+      m_KeyId: 6479969848905728
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  lvLoad: 0
+  spawnPoint: {fileID: 0}
+  skipButton: {fileID: 0}
+  levelText: {fileID: 0}
+  messengerText: {fileID: 0}
+  comboText: {fileID: 0}
+  timerText: {fileID: 0}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.40702382
+      value: 0.4957833
+      inSlope: 0.04917515
+      outSlope: 0.04917515
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.97817314
+      value: 0.308515
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  player: {fileID: 0}
+  crystals: []
+  references:
+    version: 2
+    RefIds: []

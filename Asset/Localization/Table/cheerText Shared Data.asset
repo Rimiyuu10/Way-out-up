@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: cheerText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: cheerText
+  m_TableCollectionNameGuidString: ecb2600cbcc44f544b51f2a8561d0a3a
+  m_Entries:
+  - m_Id: 2186297724928
+    m_Key: You can do it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212193173393408
+    m_Key: Mistake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212484149039104
+    m_Key: Remember how you passed this level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212535269216256
+    m_Key: calm down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212694963146752
+    m_Key: Move carefully
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1213062048632832
+    m_Key: It's OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1213259214475264
+    m_Key: Just stay focused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6479969848905728
+    m_Key: Take advantage of what you have learned
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8138593156248109108
+  references:
+    version: 2
+    RefIds:
+    - rid: 8138593156248109108
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1723892441177

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Vietnamese (vi)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Vietnamese (vi)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5433c92b7a79e544e9e16c294c7c1908
+  m_SerializeEntries:
+  - m_GUID: 9a5ce871e22a05d4eaaa4723d93485b7
+    m_Address: Flag_of_Vietnam.svg (1)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 9b5b8740771b6c54db4b5df35921be6e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a417ebef2d8dd3a459b1745c179d9741, type: 2}
+    - {fileID: 11400000, guid: 11f89f5c4cd5cff4eb4672087c3a85f0, type: 2}

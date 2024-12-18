@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringExampleTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringExampleTable
+  m_TableCollectionNameGuidString: e23252af9fa990a489f41f0fdd6c1c19
+  m_Entries:
+  - m_Id: 25681711104
+    m_Key: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17494664269824
+    m_Key: NewGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17864497025024
+    m_Key: Contiue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18019812102144
+    m_Key: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18256639283200
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18820311797760
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18840234741760
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21404669956096
+    m_Key: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21445614751744
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28390753030144
+    m_Key: Pause Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28740474097664
+    m_Key: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626761289158656
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626828465131520
+    m_Key: Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627429966073856
+    m_Key: Choose Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119305760493568
+    m_Key: Are you sure ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7086381293621248
+    m_Key: Congratulations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7458602742697984
+    m_Key: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7458682547720192
+    m_Key: Failure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7458742509490176
+    m_Key: Combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7458793847771136
+    m_Key: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7458840161275904
+    m_Key: "I know you have worked hard to get here, even though this game is not
+      a good game, I have tried my best to create it. I really thank you for playing
+      and completing my game, I hope you have a good experience with this game. If
+      you encounter any problems with errors or functions, please contact me, I will
+      try to fix the errors and update the game according to your requests. And once
+      again, \nI REALLY THANK YOU."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7464268123328512
+    m_Key: 'Time:
+
+
+      Failure:
+
+
+      Combo:
+
+
+      Score:
+
+
+      Project
+      Manager
+
+
+      Animation
+
+
+      Music
+
+
+      Programmer
+
+
+
+
+
+
+      Original
+      Planner
+
+
+      LV Creater
+
+
+      Creative Effects
+
+
+      Artist
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9451020836917248
+    m_Key: Log in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10126830472253440
+    m_Key: Score Element
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11817803615031296
+    m_Key: Register User
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11818699975544832
+    m_Key: Register
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11818918637195264
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819164171751424
+    m_Key: Enter Username...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819529248165888
+    m_Key: Enter Email...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819575876243456
+    m_Key: Enter Password...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819625469693952
+    m_Key: Confirm Password...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11869676460036096
+    m_Key: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11869737298415616
+    m_Key: User name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11870162168827904
+    m_Key: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11870188978819072
+    m_Key: Sign Out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11870393954455552
+    m_Key: User Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36763266994655232
+    m_Key: Close
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8138593121872904192
+  references:
+    version: 2
+    RefIds:
+    - rid: 8138593121872904192
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1723743915707

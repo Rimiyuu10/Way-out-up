@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: cheerText_vi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: ecb2600cbcc44f544b51f2a8561d0a3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2186297724928
+    m_Localized: "B\u1EA1n l\xE0m \u0111\u01B0\u1EE3c m\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212193173393408
+    m_Localized: "Sai l\u1EA7m"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212484149039104
+    m_Localized: "H\xE3y nh\u1EDB c\xE1ch b\u1EA1n v\u01B0\u1EE3t qua b\xE0n ch\u01A1i
+      n\xE0y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212535269216256
+    m_Localized: "B\xECnh t\u0129nh n\xE0o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212694963146752
+    m_Localized: "Di chuy\u1EC3n c\u1EA9n th\u1EADn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1213062048632832
+    m_Localized: "Kh\xF4ng sao \u0111\xE2u"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1213259214475264
+    m_Localized: "Ch\u1EC9 c\u1EA7n t\u1EADp trung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6479969848905728
+    m_Localized: "T\u1EADn d\u1EE5ng nh\u1EEFng g\xEC b\u1EA1n h\u1ECDc \u0111\u01B0\u1EE3c"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

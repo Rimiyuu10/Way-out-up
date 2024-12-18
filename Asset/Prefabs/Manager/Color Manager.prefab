@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8410060706323753317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7630239725309966850}
+  - component: {fileID: 4186095106299627447}
+  m_Layer: 0
+  m_Name: Color Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7630239725309966850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8410060706323753317}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.464339, y: -6.898194, z: -0.07318774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4186095106299627447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8410060706323753317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09f9f3e987148644912850464eac3a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformColor: {r: 1, g: 1, b: 1, a: 1}
+  platformColorButton: {fileID: 5013690450387537623, guid: 9d5595037512e50488b5ac59c5ee047a, type: 3}
+  platformColorParent: {fileID: 0}
+  platformColors:
+  - color: {r: 1, g: 1, b: 1, a: 1}
+  - color: {r: 0.047058824, g: 0.039215688, b: 0.11372549, a: 1}
+  backgroundColor: {r: 0.23137255, g: 0.23529412, b: 0.29411766, a: 1}
+  backgroundColorButton: {fileID: 5013690450387537623, guid: 7db3f58ff8fa49f49976c55c7b9e8c9c, type: 3}
+  backgroundColorParent: {fileID: 0}
+  backgroundColors:
+  - color: {r: 0.23137255, g: 0.23529412, b: 0.29411766, a: 1}
+  - color: {r: 0.23137255, g: 0.29411766, b: 0.23300989, a: 1}
+  - color: {r: 0.4641509, g: 0.4641509, b: 0.065681666, a: 1}
+  - color: {r: 0.29411766, g: 0.23137255, b: 0.23400564, a: 1}
+  - color: {r: 0.09235309, g: 0.4113207, b: 0.30823988, a: 1}
+  - color: {r: 0.10477032, g: 0.4113207, b: 0.39833125, a: 1}
+  - color: {r: 0.4117647, g: 0.10588235, b: 0.3553464, a: 1}
+  playerColor: {r: 1, g: 1, b: 1, a: 1}
+  playerColorSprite: {fileID: 0}
+  playerColorButton: {fileID: 5013690450387537623, guid: 75ea6e144539ee94392ab5e3909f5cb6, type: 3}
+  playerColorParent: {fileID: 0}
+  playerColors:
+  - color: {r: 1, g: 1, b: 1, a: 1}
+  - color: {r: 0.047058824, g: 0.039215688, b: 0.11372549, a: 1}

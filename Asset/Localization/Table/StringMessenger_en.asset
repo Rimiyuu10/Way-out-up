@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringMessenger_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a7bfbb112505d454fbb575d7b6bbca3e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5077959954432
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 930946526203904
+    m_Localized: Hold the jump to jump higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932447579525120
+    m_Localized: Now you can double jump !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934146192953344
+    m_Localized: Becaful trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936144497790976
+    m_Localized: Move beceful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190031284326400
+    m_Localized: Piu Piu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190383698137088
+    m_Localized: Hide behind the wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190624925143040
+    m_Localized: Timing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190795968860160
+    m_Localized: Go to teleport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191409247408128
+    m_Localized: '!????'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191599161298944
+    m_Localized: Don't let him find out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191811829288960
+    m_Localized: We are in space !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192130621558784
+    m_Localized: Watch your step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192266571534336
+    m_Localized: Keep moving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192488068534272
+    m_Localized: Im scare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192703815143424
+    m_Localized: Watch out !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192969390084096
+    m_Localized: Not easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193142551924736
+    m_Localized: The Stars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193313767608320
+    m_Localized: The ground was broken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193688365092864
+    m_Localized: Step by step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2355945514455040
+    m_Localized: Runnnnnnnn !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356141417811968
+    m_Localized: Stay focused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356630020673536
+    m_Localized: What the...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2357000344162304
+    m_Localized: Wake up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356887253143552
+    m_Localized: Again ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4496926850404352
+    m_Localized: So hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4497532084277248
+    m_Localized: Don't fall down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4497969248194560
+    m_Localized: Stamping machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4498802736091136
+    m_Localized: Learn how to avoid bullets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4498946181287936
+    m_Localized: Like at war
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4499211605233664
+    m_Localized: Just jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4499379717132288
+    m_Localized: Hurry up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4500552163512320
+    m_Localized: Don't let the ground push down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4502969848418304
+    m_Localized: I don't see anything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4503142037180416
+    m_Localized: Enter the elevator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4503895090909184
+    m_Localized: Jump down and back up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4504664158490624
+    m_Localized: You know how to overcome this level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4567441401171968
+    m_Localized: How to win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4567866607128576
+    m_Localized: Be careful below
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570645354500096
+    m_Localized: Spaceeeee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570663616499712
+    m_Localized: Like a hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570680569876480
+    m_Localized: REALLY BIG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570697112211456
+    m_Localized: Wait for the laser gun to turn off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570716649279488
+    m_Localized: I also find this level difficult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570727906791424
+    m_Localized: Do you see the exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570739537596416
+    m_Localized: Waiting for the right moment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570752573493248
+    m_Localized: Run faster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570763113779200
+    m_Localized: Jump, jump and jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570773993803776
+    m_Localized: I hate that gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570854872567808
+    m_Localized: Be careful above
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067066604244992
+    m_Localized: Victory is in sight !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066927458209792
+    m_Localized: You are stuck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066937977524224
+    m_Localized: Really careful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066949113401344
+    m_Localized: It's old LV but harder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066998664908800
+    m_Localized: You know
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067014271913984
+    m_Localized: You have overcome many difficulties to get here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067028486410240
+    m_Localized: You did great
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067039953637376
+    m_Localized: So no matter how difficult it is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067055405453312
+    m_Localized: I believe you will get through it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4570858928459776
+    m_Localized: Below is the depth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066296701997056
+    m_Localized: Quickly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066313835728896
+    m_Localized: So EZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066345494335488
+    m_Localized: But this one isn't
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066360107290624
+    m_Localized: This is equally difficult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066371880701952
+    m_Localized: No way out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066382534234112
+    m_Localized: Below there is only death
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066399269507072
+    m_Localized: Pay attention every time you jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066414377390080
+    m_Localized: Away from the stars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066442848325632
+    m_Localized: Giant Crusher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066459986251776
+    m_Localized: Like a train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066470891442176
+    m_Localized: That makes you jump higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066483214307328
+    m_Localized: But jump too high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066508271079424
+    m_Localized: I should have set this level higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066524326875136
+    m_Localized: Wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066534766497792
+    m_Localized: It's you!!! But?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066556530741248
+    m_Localized: Go as high as you can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066569826684928
+    m_Localized: How can I overcome it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066582648672256
+    m_Localized: Too few places to stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066593868435456
+    m_Localized: Move your way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066635127803904
+    m_Localized: Just jump and jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066645944913920
+    m_Localized: Leads you to the next level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066657860931584
+    m_Localized: This way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066671253344256
+    m_Localized: Watch the bullet and watch above
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066686419947520
+    m_Localized: Don't stand there too long
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066699015442432
+    m_Localized: No place to stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066710939848704
+    m_Localized: Watch your step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066728887275520
+    m_Localized: Face to face
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066780682735616
+    m_Localized: Too many laser guns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066791969607680
+    m_Localized: Don't stay up there too long
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066802384064512
+    m_Localized: Pay attention above and below
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066813037596672
+    m_Localized: You are used to when things are reversed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066826635530240
+    m_Localized: Looks so simple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066838933229568
+    m_Localized: Inside the mouth of the monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066861976735744
+    m_Localized: It's rainning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066883615150080
+    m_Localized: Those are just columns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066896864956416
+    m_Localized: 'Note: Super difficult'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066908109885440
+    m_Localized: Fast but Slow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066917526097920
+    m_Localized: Hurry up before it's too late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066967547367424
+    m_Localized: It looks difficult but it's actually very aesy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5066988074291200
+    m_Localized: I ran out of ideas to write the message :("
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

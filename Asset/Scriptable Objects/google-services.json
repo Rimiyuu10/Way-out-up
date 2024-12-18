@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383638590789",
+    "project_id": "wayout-73cd8",
+    "storage_bucket": "wayout-73cd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383638590789:android:c4af1b040dc5fc7fe45a2c",
+        "android_client_info": {
+          "package_name": "com.DecheThieunang.WayOut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZLetchc5hSwtuqiYmCTY4tQQLzSWmWpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

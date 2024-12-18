@@ -1,0 +1,1937 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5472463811001194146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8405320056056537980}
+  m_Layer: 0
+  m_Name: Falling Trap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8405320056056537980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472463811001194146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6037748808681190659}
+  - {fileID: 5618971096367732227}
+  - {fileID: 3379387457920676184}
+  - {fileID: 8253682010285873274}
+  - {fileID: 7630070650849634409}
+  - {fileID: 1590139448055413715}
+  - {fileID: 8556576606936428882}
+  - {fileID: 80915765562159309}
+  - {fileID: 2085801424810245151}
+  - {fileID: 7217607131802980480}
+  - {fileID: 1372542044741577656}
+  - {fileID: 8682411400545038338}
+  - {fileID: 7211296958282583696}
+  - {fileID: 5064017457585951348}
+  - {fileID: 5841319513314761699}
+  - {fileID: 5878853348962239007}
+  - {fileID: 9033286625609673565}
+  - {fileID: 6291679539995225222}
+  - {fileID: 2622752228305959867}
+  - {fileID: 3013463464323873754}
+  - {fileID: 879925002696475797}
+  - {fileID: 8414407599693992183}
+  - {fileID: 4263898508111129476}
+  - {fileID: 7954066593045237482}
+  - {fileID: 2180236391286524258}
+  - {fileID: 7848939501637512132}
+  - {fileID: 8923544647401230241}
+  - {fileID: 4696407133113382803}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &194064883652096162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.9
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &1372542044741577656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 194064883652096162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &552821438294548681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.35
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &1590139448055413715 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 552821438294548681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &958996327620454149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.15
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &2085801424810245151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 958996327620454149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1151947604404900472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4299998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &2180236391286524258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 1151947604404900472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1198576773867400151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.55
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &80915765562159309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 1198576773867400151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2128888074981908367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &879925002696475797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 2128888074981908367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3067270575641718942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &4263898508111129476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 3067270575641718942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3880035852958802081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &2622752228305959867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 3880035852958802081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4065820562223374528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.85
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &3013463464323873754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 4065820562223374528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4564597992118315586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &3379387457920676184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 4564597992118315586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4623132713252772101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.9
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &5878853348962239007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 4623132713252772101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4660594951795949817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &5841319513314761699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 4660594951795949817}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4789349235329019417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.75
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &6037748808681190659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 4789349235329019417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5110954975126353820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.0600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.65
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &6291679539995225222 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 5110954975126353820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5805621694026263689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 4.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &4696407133113382803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 5805621694026263689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6339461065870428526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.7
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &5064017457585951348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 6339461065870428526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6649515635783388441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &5618971096367732227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 6649515635783388441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7149380031762318176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &8253682010285873274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7149380031762318176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7311787977677622253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 4.05
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &8414407599693992183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7311787977677622253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7422594481149782600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.95
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &8556576606936428882 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7422594481149782600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7621027794291534616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.5600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &8682411400545038338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7621027794291534616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7668372184806036667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &8923544647401230241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7668372184806036667}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7845803947777962055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.05
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &9033286625609673565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 7845803947777962055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8473342646857272218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3.75
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &7217607131802980480 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 8473342646857272218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8479969325038441866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 2.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &7211296958282583696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 8479969325038441866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8673439857624707955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 0.15
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &7630070650849634409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 8673439857624707955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9029791643184361694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &7848939501637512132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 9029791643184361694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9214310003671471600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8405320056056537980}
+    m_Modifications:
+    - target: {fileID: 733886031154823208, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_Name
+      value: Trap Falling (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411911765306999158, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+      propertyPath: delayBeforeMoving
+      value: 1.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6586602992328169721, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+--- !u!4 &7954066593045237482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1278260661136775962, guid: 3d22a7ad9bde5ed45becd8b5ae4365cc, type: 3}
+  m_PrefabInstance: {fileID: 9214310003671471600}
+  m_PrefabAsset: {fileID: 0}
